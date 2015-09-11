@@ -53,7 +53,7 @@ clean = {
 
 The above example tells pyMaid to clean one directory:
 
-"/Users/x/Desktop" and "/Users/x/Downloads"
+"/Users/x/Desktop"
 
 All files in "/Users/x/Desktop" that end with .gif, .jpg, .jpeg or .png will be moved into "/Users/x/Pictures/"
 
