@@ -38,7 +38,7 @@ for i in clean:
     for ii in clean[i]:
         for iii in start_files:
             #only work with file-types specified in clean dict
-            if iii.endswith(ii):
+            if iii.lower().endswith(ii.lower()):
                 #make sure the directory this file will be moved into exists, if not, create it
                 if not os.path.exists(clean[i][ii]):
                     os.mkdir(clean[i][ii])
